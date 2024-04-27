@@ -36,11 +36,11 @@ while (iterar) {
    } else if (producto == producto1 && cantidad < 5) {
       alert("El total incluido de la compra con iva es de " +"$"+ precioTotal(precioMartillo, iva, cantidad))
    } else if (producto == producto2 && cantidad < 5) {
-      alert("El total incluido de la compra con iva es de " +"$"+ precioTotalMayorista(precioPinza, iva, cantidad))
+      alert("El total incluido de la compra con iva es de " +"$"+ precioTotal(precioPinza, iva, cantidad))
    } else if (producto == producto3 && cantidad < 5) {
-      alert("El total incluido de la compra con iva es de " +"$"+ precioTotalMayorista(precioDestornillador, iva, cantidad))
+      alert("El total incluido de la compra con iva es de " +"$"+ precioTotal(precioDestornillador, iva, cantidad))
    } else if (producto == producto4 && cantidad < 5) {
-      alert("El total incluido de la compra con iva es de " +"$"+ precioTotalMayorista(precioTaladro, iva, cantidad))
+      alert("El total incluido de la compra con iva es de " +"$"+ precioTotal(precioTaladro, iva, cantidad))
    } else {
       alert("no tenemos ese producto")
    }
